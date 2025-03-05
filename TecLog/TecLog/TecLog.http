@@ -1,0 +1,6 @@
+@TecLog_HostAddress = http://localhost:5269
+
+GET {{TecLog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

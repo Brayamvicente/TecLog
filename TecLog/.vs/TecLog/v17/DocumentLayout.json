@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\TecLog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\teclog.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\teclog.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|c:\\git\\teclog\\teclog\\models\\teclogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E781F0-E5BF-405B-B541-2A7FAD6AC71C}|TecLog\\TecLog.csproj|solutionrelative:teclog\\models\\teclogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TecLog.http",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\TecLog.http",
+              "RelativeDocumentMoniker": "TecLog\\TecLog.http",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\TecLog.http",
+              "RelativeToolTip": "TecLog\\TecLog.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-05T20:09:48.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Criptografia.cs",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\Utils\\Criptografia.cs",
+              "RelativeDocumentMoniker": "TecLog\\Utils\\Criptografia.cs",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\Utils\\Criptografia.cs",
+              "RelativeToolTip": "TecLog\\Utils\\Criptografia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:56:13.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\Program.cs",
+              "RelativeDocumentMoniker": "TecLog\\Program.cs",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\Program.cs",
+              "RelativeToolTip": "TecLog\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:46:21.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\appsettings.json",
+              "RelativeDocumentMoniker": "TecLog\\appsettings.json",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\appsettings.json",
+              "RelativeToolTip": "TecLog\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T18:42:22.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TecLog\\appsettings.Development.json",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\appsettings.Development.json",
+              "RelativeToolTip": "TecLog\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T18:42:23.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "TecLog\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\Models\\Usuario.cs",
+              "RelativeToolTip": "TecLog\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:39:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TecLogDbContext.cs",
+              "DocumentMoniker": "C:\\Git\\TecLog\\TecLog\\Models\\TecLogDbContext.cs",
+              "RelativeDocumentMoniker": "TecLog\\Models\\TecLogDbContext.cs",
+              "ToolTip": "C:\\Git\\TecLog\\TecLog\\Models\\TecLogDbContext.cs",
+              "RelativeToolTip": "TecLog\\Models\\TecLogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T16:48:02.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
