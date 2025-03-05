@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oqhcC0OeyAQ=",
+  "dgSpecHash": "qD7vTHwovYk=",
   "success": true,
-  "projectFilePath": "C:\\Git\\TecLog\\TecLog\\TecLog.csproj",
+  "projectFilePath": "C:\\Git Principal\\TecLog\\TecLog\\TecLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brayam.vicente\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\brayam.vicente\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
