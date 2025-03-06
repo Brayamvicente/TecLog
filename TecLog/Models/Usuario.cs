@@ -1,13 +1,13 @@
-﻿namespace TecLog.Models
-{
-    public class Usuario
-    {
+﻿using TecLog.Models.Base;
 
-        public int Id { get; set; }
+namespace TecLog.Models
+{
+    public class Usuario : BaseModel
+    {
         public int Nome { get; set; }
-        public int Cpf { get; set; }
-        public int Endereco { get; set; }
-        public int Telefone { get; set; }
+        public string Cpf { get; set; }
+        public string Endereco { get; set; }
+        public string Telefone { get; set; }
 
     }
 }
