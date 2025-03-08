@@ -6,41 +6,30 @@ using System.Security.Cryptography;
 using TecLog.Models;
 using TecLog.Utils;
 using System.Net.WebSockets;
+using System.Reflection;
+using TecLog.Services.Base;
+using TecLog.Models.Base;
+using System.Security.AccessControl;
+using System.Text.RegularExpressions;
+using TecLog.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+RegistrarServicos(builder.Services);
 
-var connection = builder.Configuration.GetConnectionString("TecLog");
+var connection = builder.Configuration.GetConnectionString(Environment.MachineName);
 
 builder.Services.AddDbContext<TecLogDbContext>(options =>
         options.UseSqlServer(Criptografia.Decrypt(connection)));
 
-
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    try
-    {
-        var dbcontext = scope.ServiceProvider.GetRequiredService<TecLogDbContext>();
-        dbcontext.Database.OpenConnection();
 
-        dbcontext.Database.CloseConnection();
+app.MapControllers();
 
-    }
-    catch(Exception e) 
-    {
-        Console.WriteLine(e);
-    }
-}
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
     {
         app.UseSwagger();
         app.UseSwaggerUI();
@@ -53,5 +42,16 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+void RegistrarServicos(IServiceCollection services)
+{
+    services.AddControllers();
+    services.AddEndpointsApiExplorer();
+    services.AddSwaggerGen();
+
+    services.AddScoped<UsuarioService>();
+}
+
 
 

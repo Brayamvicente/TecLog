@@ -4,7 +4,12 @@ namespace TecLog.Controllers.Base;
 
 public class BaseController : ControllerBase
 {
-   
+
+
+    protected IActionResult HandleOk()
+    {
+        return Ok();
+    }
     protected IActionResult HandleBadRequest(string mensagem)
     {
         return BadRequest(new { Message = mensagem }); 
@@ -23,5 +28,10 @@ public class BaseController : ControllerBase
     protected IActionResult HandleNoContent()
     {
         return NoContent(); 
+    }
+
+    protected IActionResult HandleUnauthorized()
+    {
+        return Unauthorized();
     }
 }

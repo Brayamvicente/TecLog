@@ -11,9 +11,13 @@ public class UsuarioService : BaseService<Usuario>
         
     }
 
-    public async Task<Usuario> BuscaPorCpf(string cpf)
+    public async Task<Usuario> BuscaPorUserName(string userName)
     {
-        var cpfFormatado = Regex.Replace(cpf, @"\D", "");
-        return _dbSet.FirstOrDefault(x => Regex.Replace(x.Cpf, @"\D", "") == cpfFormatado);
+        return _dbSet.FirstOrDefault(x => x.UserName == userName);
+    }
+
+    public async Task<Usuario> BuscaPorCpf(int cpf)
+    {
+        return _dbSet.FirstOrDefault(x => x.Cpf == cpf);
     }
 }

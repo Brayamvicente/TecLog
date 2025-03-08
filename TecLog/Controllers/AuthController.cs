@@ -32,6 +32,21 @@ namespace TecLog.Controllers
             return HandleNoContent();
         }
 
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromQuery] string usuario, [FromQuery] string senha)
+        {
+            if (usuario == string.Empty || senha == string.Empty) return HandleBadRequest("LU01");
+
+            var Usuario = await _usuarioService.BuscaPorUserName(usuario);
+
+            if (Usuario.Senha == senha)
+            {
+                return HandleOk();
+            }
+            else
+                return Unauthorized();
+        }
+
 
         [HttpGet("{id}")]
         public async Task<Usuario> BuscaDadosUsuario(int id)
