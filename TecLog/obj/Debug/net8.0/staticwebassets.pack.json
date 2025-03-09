@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.config.js",
+      "PackagePath": "staticwebassets\\app\\app.config.js"
+    },
+    {
+      "Id": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.module.js",
+      "PackagePath": "staticwebassets\\app\\app.module.js"
+    },
+    {
+      "Id": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\main.controller.js",
+      "PackagePath": "staticwebassets\\app\\main.controller.js"
+    },
+    {
+      "Id": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TecLog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TecLog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TecLog.props",
+      "PackagePath": "build\\TecLog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TecLog.props",
+      "PackagePath": "buildMultiTargeting\\TecLog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TecLog.props",
+      "PackagePath": "buildTransitive\\TecLog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

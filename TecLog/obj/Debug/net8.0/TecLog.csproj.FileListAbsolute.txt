@@ -342,3 +342,9 @@ C:\Users\braya\TecLog\TecLog\obj\Debug\net8.0\refint\TecLog.dll
 C:\Users\braya\TecLog\TecLog\obj\Debug\net8.0\TecLog.pdb
 C:\Users\braya\TecLog\TecLog\obj\Debug\net8.0\TecLog.genruntimeconfig.cache
 C:\Users\braya\TecLog\TecLog\obj\Debug\net8.0\ref\TecLog.dll
+C:\Users\braya\TecLog\TecLog\bin\Debug\net8.0\TecLog.staticwebassets.runtime.json
+C:\Users\braya\TecLog\TecLog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\braya\TecLog\TecLog\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\braya\TecLog\TecLog\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\braya\TecLog\TecLog\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\braya\TecLog\TecLog\bin\Debug\net8.0\wwwroot\index.html

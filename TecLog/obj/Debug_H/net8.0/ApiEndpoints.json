@@ -1,8 +1,29 @@
 [
   {
     "ContainingType": "TecLog.Controllers.AuthController",
+    "Method": "Logar",
+    "RelativePath": "Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "senha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecLog.Controllers.UsuarioController",
     "Method": "BuscaDadosUsuario",
-    "RelativePath": "Auth/{id}",
+    "RelativePath": "Usuario/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,30 +47,9 @@
     ]
   },
   {
-    "ContainingType": "TecLog.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "Auth/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuario",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "senha",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TecLog.Controllers.AuthController",
+    "ContainingType": "TecLog.Controllers.UsuarioController",
     "Method": "RegistraUsuario",
-    "RelativePath": "Auth/Registro",
+    "RelativePath": "Usuario/Registro",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

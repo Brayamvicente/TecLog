@@ -171,3 +171,4 @@ C:\Users\braya\TecLog\TecLog\obj\Debug_H\net8.0\refint\TecLog.dll
 C:\Users\braya\TecLog\TecLog\obj\Debug_H\net8.0\TecLog.pdb
 C:\Users\braya\TecLog\TecLog\obj\Debug_H\net8.0\TecLog.genruntimeconfig.cache
 C:\Users\braya\TecLog\TecLog\obj\Debug_H\net8.0\ref\TecLog.dll
+C:\Users\braya\TecLog\TecLog\bin\Debug_H\net8.0\TecLog.staticwebassets.runtime.json

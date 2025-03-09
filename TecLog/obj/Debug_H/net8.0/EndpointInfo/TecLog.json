@@ -5,37 +5,6 @@
     "version": "1.0"
   },
   "paths": {
-    "/Auth/Registro": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Usuario"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Usuario"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Usuario"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/Auth/Login": {
       "post": {
         "tags": [
@@ -64,10 +33,41 @@
         }
       }
     },
-    "/Auth/{id}": {
+    "/Usuario/Registro": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Usuario/{id}": {
       "get": {
         "tags": [
-          "Auth"
+          "Usuario"
         ],
         "parameters": [
           {

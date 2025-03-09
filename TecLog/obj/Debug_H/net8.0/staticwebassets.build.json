@@ -1,12 +1,434 @@
 {
   "Version": 1,
-  "Hash": "E2RVAkqkZi5AmuKp9xN9eVyaMwELARvBsR0ywQIpOKc=",
+  "Hash": "4gkbfrh6XP3fmWHCo0VHrV12d2AnhruBAMzJa6J3ZOQ=",
   "Source": "TecLog",
   "BasePath": "_content/TecLog",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "TecLog\\wwwroot",
+      "Source": "TecLog",
+      "ContentRoot": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\",
+      "BasePath": "_content/TecLog",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.config.js",
+      "SourceId": "TecLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\",
+      "BasePath": "_content/TecLog",
+      "RelativePath": "app/app.config#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app\\app.config.js"
+    },
+    {
+      "Identity": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.module.js",
+      "SourceId": "TecLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\",
+      "BasePath": "_content/TecLog",
+      "RelativePath": "app/app.module#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bgt13v7a1l",
+      "Integrity": "pQWrfRWolv23ggDcKHg9Wp4k3S1jt4RU/fKJ1qp8bdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app\\app.module.js"
+    },
+    {
+      "Identity": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\index.html",
+      "SourceId": "TecLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\",
+      "BasePath": "_content/TecLog",
+      "RelativePath": "app/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r4fl51ly0k",
+      "Integrity": "JSfVhvWrsmrbSfBwx0PalzaBZUwg58B1p/J5z67F/Qc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\main.controller.js",
+      "SourceId": "TecLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\",
+      "BasePath": "_content/TecLog",
+      "RelativePath": "app/main.controller#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dogxky4kr",
+      "Integrity": "WJBnaREX6NcEP5ebyq2SygKN/V+KL42nI0TqF6TlBRE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app\\main.controller.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app/app.config.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 01:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "app/app.config.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "app/app.config.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 01:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "app/app.module.bgt13v7a1l.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.module.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pQWrfRWolv23ggDcKHg9Wp4k3S1jt4RU/fKJ1qp8bdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bgt13v7a1l"
+        },
+        {
+          "Name": "label",
+          "Value": "app/app.module.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pQWrfRWolv23ggDcKHg9Wp4k3S1jt4RU/fKJ1qp8bdU="
+        }
+      ]
+    },
+    {
+      "Route": "app/app.module.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\app.module.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pQWrfRWolv23ggDcKHg9Wp4k3S1jt4RU/fKJ1qp8bdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pQWrfRWolv23ggDcKHg9Wp4k3S1jt4RU/fKJ1qp8bdU="
+        }
+      ]
+    },
+    {
+      "Route": "app/index.html",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JSfVhvWrsmrbSfBwx0PalzaBZUwg58B1p/J5z67F/Qc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JSfVhvWrsmrbSfBwx0PalzaBZUwg58B1p/J5z67F/Qc="
+        }
+      ]
+    },
+    {
+      "Route": "app/index.r4fl51ly0k.html",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JSfVhvWrsmrbSfBwx0PalzaBZUwg58B1p/J5z67F/Qc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r4fl51ly0k"
+        },
+        {
+          "Name": "label",
+          "Value": "app/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JSfVhvWrsmrbSfBwx0PalzaBZUwg58B1p/J5z67F/Qc="
+        }
+      ]
+    },
+    {
+      "Route": "app/main.controller.4dogxky4kr.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\main.controller.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJBnaREX6NcEP5ebyq2SygKN/V+KL42nI0TqF6TlBRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dogxky4kr"
+        },
+        {
+          "Name": "label",
+          "Value": "app/main.controller.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJBnaREX6NcEP5ebyq2SygKN/V+KL42nI0TqF6TlBRE="
+        }
+      ]
+    },
+    {
+      "Route": "app/main.controller.js",
+      "AssetFile": "C:\\Users\\braya\\TecLog\\TecLog\\wwwroot\\app\\main.controller.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJBnaREX6NcEP5ebyq2SygKN/V+KL42nI0TqF6TlBRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 02:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJBnaREX6NcEP5ebyq2SygKN/V+KL42nI0TqF6TlBRE="
+        }
+      ]
+    }
+  ]
 }

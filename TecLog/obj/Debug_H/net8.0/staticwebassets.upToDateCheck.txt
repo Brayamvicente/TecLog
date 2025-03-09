@@ -1,0 +1,4 @@
+wwwroot\app\app.config.js
+wwwroot\app\app.module.js
+wwwroot\app\index.html
+wwwroot\app\main.controller.js
