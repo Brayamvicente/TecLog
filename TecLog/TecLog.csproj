@@ -25,7 +25,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\app\components\" />
     <Folder Include="wwwroot\app\services\" />
-    <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\assets\" />
   </ItemGroup>

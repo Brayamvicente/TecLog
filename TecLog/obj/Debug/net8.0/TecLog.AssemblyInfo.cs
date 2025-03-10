@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TecLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce4cb08a0762559a6bcbc84ad3f9c0f1893a345e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f9a51ae306549a696f61124d7bad8b0992a976a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TecLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TecLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
