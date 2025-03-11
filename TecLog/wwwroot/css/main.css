@@ -1,4 +1,19 @@
-﻿menu-lateral {
-    background: rgb(0, 255, 255)
-    padding-box
+﻿.menu-lateral {
+    background-color: rgb(78, 76, 74);
+    width: 200px;
+    height: 100vh;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.text-menu {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 100px;
 }
