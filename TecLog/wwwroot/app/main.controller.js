@@ -1,13 +1,10 @@
 ﻿(function () {
     "use strict";
 
-    angular.module("app")
-        .controller("MainController", function ($scope) {
+    angular.module('teste', ['ngRoute']).controller("MainController", function ($scope,$location) {
 
-            $scope.teste = "Mundo";
-
-            $scope.mostrarMensagem = function () {
-                $scope.mensagem = "Você clicou no botão!";
+            $scope.goToSignIn = function () {
+                $location.path('/SignIn')
             };
         })
 })();

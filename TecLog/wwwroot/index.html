@@ -1,38 +1,26 @@
 ﻿<!DOCTYPE html>
-<html>
+<html  ng-app="teste">
 <head>
     <meta charset="utf-8" />
 
     <title>TecLog System</title>
-
+    <base href="/">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-    <script src="app/app.module.js"></script>
-    <script src="app/main.controller.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
+
+    <script src="/app/app.module.js"></script>
+    <script src="/app/app.config.js"></script>
+    <script src="/app/main.controller.js"></script>
+
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body ng-app="app">
+<body>
 
     <div class="menu-lateral">
-        <a class="text-menu">Registrar-se</a>
-    </div>
-    <div ng-controller="MainController">
-        <div>
-            <h1>TEC LOG</h1>
-            <br />
-            <input type="text" ng-model="Usuario" placeholder="Usuario">
-            <br />
-            <input type="text" ng-model="Nome" placeholder="Nome">
-            <br />
-            <input type="text" ng-model="Cpf" placeholder="Cpf">
-            <br />
-            <input type="text" ng-model="Endereco" placeholder="Endereco">
-            <br />
-            <input type="text" ng-model="Senha" placeholder="Senha">
-
-            <button ng-click="RegistrarUsuario()">Adicionar usuario</button>
-        </div>
+        <a ng-href='#!/cadastro' class="text-menu">Registrar-se</a>
     </div>
 
+    <div ng-view></div>
 </body>
-</html>
+</htmlng-app="app">
