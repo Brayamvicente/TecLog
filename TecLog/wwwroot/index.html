@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html  ng-app="teste">
+<html ng-app="teste">
 <head>
     <meta charset="utf-8" />
 
@@ -9,18 +9,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
 
     <script src="/app/app.module.js"></script>
-    <script src="/app/app.config.js"></script>
     <script src="/app/main.controller.js"></script>
+    <script src="/app/app.config.js"></script>
 
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
+<body ng-controller="MainController">
 
-    <div class="menu-lateral">
-        <a ng-href='#!/cadastro' class="text-menu">Registrar-se</a>
+    <div ng-if="!isSignInRoute()" class="menu-lateral">
+        <a ng-href="/SignIn" class="text-menu">Registrar-se</a>
     </div>
 
     <div ng-view></div>
 </body>
-</htmlng-app="app">
+</html>

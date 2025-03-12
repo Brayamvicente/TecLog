@@ -1,3 +1,10 @@
-﻿app.controller("SignInController", function ($scope) {
-    $scope.mensagem = "Bem-vindo à tela de login!";
-});
+﻿(function () {
+    'use strict';
+
+    app.controller("SignInController", function ($scope, $location) {
+
+        $scope.isSignInRoute() = function () {
+            return $location.path() === "/SignIn"
+        }
+    });
+})();

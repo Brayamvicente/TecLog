@@ -1,10 +1,12 @@
 ﻿(function () {
-    "use strict";
+    'use strict';
 
-    angular.module('teste', ['ngRoute']).controller("MainController", function ($scope,$location) {
+    app.controller("MainController", function ($scope, $location) {
+        console.log("maincontroller sendo processada")
 
-            $scope.goToSignIn = function () {
-                $location.path('/SignIn')
-            };
-        })
+        $scope.isSignInRoute = function () {
+            console.log("maincontroller" + $location.path())
+            return $location.path() === "/SignIn"
+        }
+    });
 })();
