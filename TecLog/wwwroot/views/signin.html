@@ -14,19 +14,26 @@
 
 </head>
 <body ng-controller="SignInController">
+    <div class="menu-registrar">
+        <h2>Registro</h2>
+        <form>
+            <label>Usuário:</label>
+            <input type="text" ng-model="Usuario.User" placeholder="Usuario">
 
-    <div class="registrar">
-        <h1>TEC LOG</h1>
-        <br />
-        <input type="text" ng-model="Usuario" placeholder="Usuario">
-        <br />
-        <input type="text" ng-model="Nome" placeholder="Nome">
-        <br />
-        <input type="text" ng-model="Cpf" placeholder="Cpf">
-        <br />
-        <input type="text" ng-model="Endereco" placeholder="Endereco">
-        <br />
-        <input type="text" ng-model="Senha" placeholder="Senha">
+            <label>Nome Completo:</label>
+            <input type="text" ng-model="Usuario.Nome" placeholder="Nome">
+
+            <label>CPF:</label>
+            <input type="text" ng-model="Usuario.Cpf" required placeholder="000.000.000-00">
+
+            <label>Endereço:</label>
+            <input type="text" ng-model="Usuario.Endereco" placeholder="Endereco">
+
+            <label>Senha:</label>
+            <input type="password" ng-model="Usuario.Senha" placeholder="Senha">
+
+            <button type="submit">Registrar</button>
+        </form>
     </div>
 
     <div ng-view></div>
