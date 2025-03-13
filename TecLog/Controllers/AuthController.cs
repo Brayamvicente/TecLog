@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using TecLog.Models;
 using TecLog.Services;
 using TecLog.Controllers.Base;
+using TecLog.Dto;
 
 namespace TecLog.Controllers
 {
@@ -18,13 +19,13 @@ namespace TecLog.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Logar([FromQuery] string usuario, [FromQuery] string senha)
+        public async Task<IActionResult> Logar([FromBody] Login login)
         {
-            if (usuario == string.Empty || senha == string.Empty) return HandleBadRequest("LU01");
+            if (login.Usuario == string.Empty || login.Senha == string.Empty) return HandleBadRequest("LU01");
 
-            var Usuario = await _UsuarioService.BuscaPorUserName(usuario);
+            var Usuario = await _UsuarioService.BuscaPorUserName(login.Usuario);
 
-            if (Usuario.Senha == senha)
+            if (Usuario.Senha == login.Senha)
             {
                 return HandleOk();
             }

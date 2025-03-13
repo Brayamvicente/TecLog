@@ -6,10 +6,14 @@
 }
 
 .menu-lateral {
-    background-color: rgb(78, 76, 74);
+    position: fixed;
+    background-color: rgb(54, 58, 57);
     width: 200px;
     height: 100vh;
     margin: 0;
+    border-radius: 0px 20px 20px 0px;
+    left: 0;
+    top: 0;
 }
 
 
@@ -24,7 +28,7 @@
 
 .input-signin {
     margin: 2px;
-    position absolute;
+    position: absolute;
 
 }
 
@@ -40,7 +44,6 @@ body {
     background-color: rgb(72, 149, 145 );
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -55,6 +58,12 @@ body {
 .menu-registrar form {
     display: flex;
     flex-direction: column;
+}
+
+.menu-registrar a {
+    margin-bottom: 8px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .menu-registrar label {
@@ -80,4 +89,53 @@ body {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+}
+
+
+
+.login-menu {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-menu h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-menu form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-menu label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.login-menu input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-menu button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-menu a {
+    margin-bottom: 8px;
+    font-size: 15px;
+    text-align: center;
 }

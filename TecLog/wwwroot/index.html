@@ -10,6 +10,7 @@
 
     <script src="/app/app.module.js"></script>
     <script src="/app/main.controller.js"></script>
+    <script src="/controllers/signin.controller.js"></script>
     <script src="/app/app.config.js"></script>
 
     <link rel="stylesheet" href="css/main.css">
@@ -17,9 +18,23 @@
 </head>
 <body ng-controller="MainController">
 
-    <div ng-if="!isSignInRoute()" class="menu-lateral">
+    <div ng-if="!isSignInRoute()" >        
+        <div class="menu-lateral">
         <a ng-href="/SignIn" class="text-menu">Registrar-se</a>
-    </div>
+        </div>
+        
+        <div class="login-menu">
+        <h2>Login</h2>
+        <form ng-submit="fazerLogin()">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" ng-model="Login.usuario" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" ng-model="Login.senha" required>
+            <a>{{ msgRetorno }}</a>
+            <button type="submit">Entrar</button>
+        </form>
+        </div>        
+    </div>    
 
     <div ng-view></div>
 </body>

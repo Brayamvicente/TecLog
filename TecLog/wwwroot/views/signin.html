@@ -9,29 +9,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
 
     <script src="/app/app.module.js"></script>
+    <script src="/controllers/signin.controller.js"></script>
 
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body ng-controller="SignInController">
     <div class="menu-registrar">
-        <h2>Registro</h2>
-        <form>
-            <label>Usuário:</label>
-            <input type="text" ng-model="Usuario.User" placeholder="Usuario">
+        <form ng-submit="RegistraUsuario()">
+            <label for="usuario" >Usuário:</label>
+            <input type="text" id="usuario" ng-model="Usuario.User" placeholder="Usuario">
 
-            <label>Nome Completo:</label>
-            <input type="text" ng-model="Usuario.Nome" placeholder="Nome">
+            <label for="nome" >Nome Completo:</label>
+            <input type="text" id="nome" ng-model="Usuario.Nome" placeholder="Nome">
 
-            <label>CPF:</label>
-            <input type="text" ng-model="Usuario.Cpf" required placeholder="000.000.000-00">
+            <label for="cpf" >CPF:</label>
+            <input type="text" id="cpf" ng-model="Usuario.Cpf" required placeholder="000.000.000-00">
 
-            <label>Endereço:</label>
-            <input type="text" ng-model="Usuario.Endereco" placeholder="Endereco">
+            <label for="endereco" >Endereço:</label>
+            <input type="text" id="endereco" ng-model="Usuario.Endereco" placeholder="Endereco">
 
-            <label>Senha:</label>
-            <input type="password" ng-model="Usuario.Senha" placeholder="Senha">
-
+            <label for="senha" >Senha:</label>
+            <input type="password" id="senha" ng-model="Usuario.Senha" placeholder="Senha">
+            <a>{{ msgRetornoReg }}</a>
             <button type="submit">Registrar</button>
         </form>
     </div>
