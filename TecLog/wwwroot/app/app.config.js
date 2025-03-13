@@ -1,8 +1,7 @@
 ﻿(function () {
     'use strict';
         
-    app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
-        console.log("teste111")
+    app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) { 
         $locationProvider.html5Mode(true).hashPrefix('');
         $routeProvider
             .when('/SignIn', {

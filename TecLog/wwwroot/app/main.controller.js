@@ -20,7 +20,12 @@
                     }
                 response.data;
             }).catch(function (error) {
-                console.error("Erro na requisição:", error);
+                if (error.status === 401 || error.status === 400){
+                    $scope.msgRetorno = 'Usuario e/ou senha incorretos';
+                }
+                else if(error.status === 404){
+                    $scope.msgRetorno = 'Usuario não encontrado';
+                }
             });
         }
     }]);

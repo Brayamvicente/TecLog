@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
 
     <script src="/app/app.module.js"></script>
-    <script src="/controllers/signin.controller.js"></script>
+
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -18,7 +18,7 @@
     <div class="menu-registrar">
         <form ng-submit="RegistraUsuario()">
             <label for="usuario" >Usuário:</label>
-            <input type="text" id="usuario" ng-model="Usuario.User" placeholder="Usuario">
+            <input type="text" id="usuario" ng-model="Usuario.UserName" placeholder="Usuario">
 
             <label for="nome" >Nome Completo:</label>
             <input type="text" id="nome" ng-model="Usuario.Nome" placeholder="Nome">
@@ -35,7 +35,5 @@
             <button type="submit">Registrar</button>
         </form>
     </div>
-
-    <div ng-view></div>
 </body>
 </html>

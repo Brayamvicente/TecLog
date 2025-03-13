@@ -11,13 +11,10 @@ public class UsuarioService : BaseService<Usuario>
         
     }
 
-    public async Task<Usuario> BuscaPorUserName(string userName)
+    public async Task<Usuario> BuscaUsuario(string identificacao)
     {
-        return _dbSet.FirstOrDefault(x => x.UserName == userName);
+        return _dbSet.FirstOrDefault(x => x.UserName == identificacao || x.Cpf.ToString() == identificacao);
     }
 
-    public async Task<Usuario> BuscaPorCpf(int cpf)
-    {
-        return _dbSet.FirstOrDefault(x => x.Cpf == cpf);
-    }
+
 }
