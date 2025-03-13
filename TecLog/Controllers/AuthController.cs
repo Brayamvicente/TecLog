@@ -23,14 +23,21 @@ namespace TecLog.Controllers
         {
             if (login.Usuario == string.Empty || login.Senha == string.Empty) return HandleBadRequest("LU01");
 
-            var Usuario = await _UsuarioService.BuscaPorUserName(login.Usuario);
+            var Usuario = await _UsuarioService.BuscaUsuario(login.Usuario);
 
-            if (Usuario.Senha == login.Senha)
+            if (Usuario == null)
             {
-                return HandleOk();
+                return HandleNotFound();
             }
             else
-                return Unauthorized();
+            {
+                if (Usuario.Senha == login.Senha)
+                {
+                    return HandleOk();
+                }
+                else
+                    return Unauthorized();
+            }
         }
     }
 }
